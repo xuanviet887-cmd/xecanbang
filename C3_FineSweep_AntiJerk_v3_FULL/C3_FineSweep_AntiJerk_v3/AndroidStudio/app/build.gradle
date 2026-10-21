@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'vn.phenikaa.responselab'
+    compileSdk 34
+    defaultConfig { applicationId 'vn.phenikaa.responselab'; minSdk 26; targetSdk 34; versionCode 3; versionName '3.0' }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}

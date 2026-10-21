@@ -1,0 +1,7 @@
+Đủ 330 mẫu; Ts đặt 2.5 ms, Ts thực TB 2.519 ms, P95 2.511 ms
+Dùng lại góc 246 lần; trễ >120% Ts 1; chạm biên 170 mẫu
+Motor hoạt động: 329 mẫu. Xe nghiêng quá ngưỡng ngã 35°
+MAE |e|: 2.670°; RMSE: 3.978°; lệch trung bình +1.552°; |e| lớn nhất 11.170°
+Chưa đủ điều kiện xếp hạng: cần chế độ TRÊN SÀN, bấm đánh dấu thả tay, ghi >=100 mẫu PD sau dấu.
+Kp6.00 Kd0.700 target0.00 cap255; mốc0.24 bias0.026; mode3; trụcY; mô hình từ005829.
+Dữ liệu ghi trên ESP32, tải đủ từng mẫu. CRC lỗi khi tải0. Không đo độ trễ cơ học hoặc tự nhận dạng gain.
